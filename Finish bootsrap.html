@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bootstrap Exercise</title>
+<link rel="icon" type="image/ico" href="01.gif" />
+      <link rel="stylesheet" type="text/css" href="/home/ukikcpc07/uki/cohort1/Subanhi/bootstrap/bootstrap-4.3.1-dist/css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" type="text/css" href="https://www.w3schools.com/w3css/4/w3.css">
+      <link rel="stylesheet" type="text/css" href="bootstrap exercise.css" >
+      <link rel="stylesheet" href="/home/ukikcpc08/Uki/cohort1/umaliny/bootstrap/bootstrap-4.3.1-dist/css/bootstrap.min.css">
+      <script src="/home/ukikcpc08/Uki/cohort1/umaliny/bootstrap/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <style>
+        .bg{
+          background-color: purple;
+          border: purple;
+        }
+        .dropdown{
+        background-color: pink;
+        border-color: red;
+        border-width: medium;
+        }
+        .dropdown-divider{
+          border-top-color: red;
+        }
+        </style>
+  </head>
+  <body>
+  <div class="row">
+    <div class="col-sm-12">Exercise</div>
+    <div class="col-sm-2">
+      <!-- exe1 -->
+      <div class="dropdown ">
+        <button type="button" class="btn btn-primary dropdown-toggle bg-danger text-white btn-outline-danger" data-toggle="dropdown" style="margin: 25px;">
+          Button Dropdown Menu
+        </button>
+        <div class="dropdown-menu dropdown">
+          <a class="dropdown-item" href="#">Home</a>
+          <a class="dropdown-item" href="#">Bootstrap</a>
+          <a class="dropdown-item" href="#">jQuery</a>
+          <a class="dropdown-item" href="#">jQuery UI</a>
+          <div class="dropdown-divider dropdownr"></div>
+          <a class="dropdown-item" href="#">PHP</a>
+        </div>
+      </div>
+      </div>
+      <!-- exe2 -->
+    <div class="col-sm-8 " style="background-color: lightblue; height: 500px; width: 600px; margin: 30px;" >
+      <div class="row">
+      <div class="btn-group btn-group-lg bg-primary btn-outline-primary" >
+        <button type="button" class="col-sm-2 btn btn-primary" style="height: 50px; width: 450px;" ><i class="fa fa-home"></i>HOME</button>
+        <div class="btn-group">
+        <button type="button" class="col-sm-2 btn btn-primary dropdown-toggle" data-toggle="dropdown" height: 50px;><i class="fa fa-bars"></i>MENUS</button>
+        <div class="dropdown-menu bg-primary">
+            <a class="dropdown-item" href="#">MENU2</a>
+            <a class=" dropdown-item dropdown-toggle" data-toggle="dropdown" href="#">MENU1</a>
+            <div class="dropdown-menu bg-primary">
+                <a class="dropdown-item" href="#">Menu1.1</a>
+                <a class="dropdown-item" href="#">Menu1.2</a>
+            </div>
+        </div>
+        </div>
+          <button type="button" class="col-sm-2 btn bg-dark text-white" style=" height:40px;"><i class="fa fa-gear"></i>SETTINGS</button>
+          <button type="button" class="col-sm-2 btn bg-dark text-white" style=" height:40px;"><i class="fa fa-phone"></i>CONTACT</button>
+          <button type="button" class="col-sm-4 btn bg-dark" style="width:700px; height:40px;"></button>
+        </div>
+      </div>
+    </div>
+  </div><br><br>
+    <!-- exe3 -->
+    <div class="row">
+    <div class="col-sm-5 "  style="background-color: lightgreen; height: 500px; width: 600px; margin: 30px;" >
+          <div class="input-group-btn search-panel btn-group" >
+          <div class="searchbar">
+            <input class="search_input" type="text" name="" placeholder="Search...">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown"></button>
+                       <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Assories</a></li>
+                        <li><a href="#">Jackets</a></li>
+                        <li><a href="#">Jeans</a></li>
+                        <li><a href="#">Shoes</a></li>
+                        <li><a href="#">Shirts</a></li>
+                        <li><a href="#">Watches</a></li>
+                      </ul>
+                      <a href="#" class="search_icon"><i class="fa fa-search"></i></a>
+          </div>
+          </div>
+    </div>
+    <!-- exe4 -->
+    <div class="col-sm-5 margin-left" style="background-color:green; height: 500px; width: 600px; margin: 30px;" >
+      <div class="btn-group btn-group-lg btn-outline-success" style="margin-top:45px;">
+        <button type="button" class="btn btn-success col-sm-2">HOME</button>
+        <div class="btn-group bg-success">
+        <button type="button" class="btn btn-success col-sm-3" data-toggle="dropdown">SERVICES</button>
+        <div class="dropdown-menu bg">
+           <a class="dropdown-item text-white" href="#">WEB DESIGN</a>
+           <a class="dropdown-item text-white" href="#">WEB DEVELOPMENT</a>
+           <a class="dropdown-item text-white" href="#">WEB HOSTING</a>
+        </div>
+      </div>
+        <button type="button" class="btn btn-success col-sm-2">ABOUT</button>
+        <button type="button" class="btn btn-success col-sm-2">BLOG</button>
+        <button type="button" class="btn btn-success col-sm-2">CONTACT</button>
+      </div>
+    </div>
+</div><br><br>
+      <!-- exe5 -->
+      <div class="row">
+      <div class="col-sm-5" style="height: 300px; width: 400px; margin: 25px;" >
+      <table class="table table-bordered">
+          <thead>
+            <tr class="table-gray">
+              <th>Product ID</th>
+              <th>Product Name</th>
+              <th>Product Quality</th>
+              <th>Product Quantity</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="table-primary">
+              <td>1</td>
+              <td>wheat</td>
+              <td>Good</td>
+              <td>200bags</td>
+            </tr>
+            <tr class="table-danger">
+              <td>2</td>
+              <td>Rice</td>
+              <td>Good</td>
+              <td>250bags</td>
+            </tr>
+            <tr class="table-warning">
+              <td>3</td>
+              <td>Sugar</td>
+              <td>Good</td>
+              <td>200bags</td>
+            </tr>
+            <tr class="table-gray">
+              <td>4</td>
+              <td>Suger</td>
+              <td>Good</td>
+              <td>200bags</td>
+            </tr>
+            <tr class="table-success">
+              <td>5</td>
+              <td>sugar</td>
+              <td>Good</td>
+              <td>200bags</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!-- exe6 -->
+      <div class="col-sm-5" margin="right" >
+        <div >
+        <table class="table table-bordered table-rounded" style="height: 200px; width: 300px; margin: 30px;">
+          <thead>
+           <tr>
+            <td colspan="2" class="bg-danger text-center rounded text-white">Row Number-1</td>
+          </tr>
+          <tr>
+            <th class="bg-success text-center">Product Name</th>
+            <th class="bg-gray text-center">Wheat</th>
+          </tr>
+          <tr>
+            <th class="bg-success text-center">Quality</th>
+            <th class="bg-gray text-center">Good</th>
+          </tr>
+          <tr>
+           <th class="bg-success text-center">Quantity</th>
+           <th class="bg-gray text-center">200bags</th>
+          </tr>
+          <br><br>
+          <tr>
+           <td colspan="2" class="bg-danger rounded text-center text-white">Row Number-2</td>
+          </tr>
+          <tr>
+           <th class="bg-success text-center">Product Name</th>
+          <th class="bg-gray text-center">Rice</th>
+         </tr>
+         <tr>
+          <th class="bg-success text-center">Quality</th>
+          <th class="bg-gray text-center">Good</th>
+         </tr>
+         <tr>
+          <th class="bg-success text-center"></th>
+          <th class="bg-gray text-center"></th>
+         </tr>
+       </div>
+     </div><br><br>
+        <!-- exe7 -->
+
+
+
+         <table class="table table-bordered table-rounded" style="margin-right: 500px; align: center;">
+           <thead>
+            <tr class="bg-danger rounded text-center text-white" style="width: 100px; font-size:48px;">
+              <th>Planes</th>
+              <th>Basic</th>
+              <th>Medium</th>
+              <th>premium</th>
+              </tr>
+              <tr class="bg-light text-center">
+                <td><i class="fa fa-check bg-white"></i>lorem</td>
+                <td>Element</td>
+                <td>Element</td>
+                <td>Element</td>
+              </tr>
+              <tr class="bg-gray text-center">
+                <td><i class="fa fa-check"></i>lorem</td>
+                <td>Element</td>
+                <td>Element</td>
+                <td>Element</td>
+              </tr>
+              <tr class="bg-light text-center">
+                <td><i class="fa fa-check"></i>lorem</td>
+                <td>Element</td>
+                <td>Element</td>
+                <td>Element</td>
+              </tr>
+              <tr class="text-center">
+                <td></td>
+                <td><button type="button" class="btn btn-success" name="button">Buy</button></td>
+                <td><button type="button" class="btn btn-success" name="button">Buy</button></td>
+                <td><button type="button" class="btn btn-success" name="button">Buy</button></td>
+              </thead>
+              </table>
+  </body>
+  </html>
